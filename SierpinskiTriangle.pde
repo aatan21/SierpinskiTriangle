@@ -30,10 +30,12 @@ public void keyPressed()
 {
   if((key == 'e' || key == 'E') && limit > 5)
   {
+    background(0);
     limit = limit / 2;
   }
   if((key == 'q' || key == 'Q') && limit < 550)
   {
+    background(0);
     limit = limit * 2;
   }
 }
