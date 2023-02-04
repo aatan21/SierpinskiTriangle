@@ -21,7 +21,6 @@ public void sierpinski(int x, int y, int len)
     }
 }
 
-
 public void draw()
 {
   sierpinski(25, 590, 550);
